@@ -1,5 +1,5 @@
 # SAE_Cryptographie
-<title>Le projet a été réalisé par:</title>
+Le projet a été réalisé par:
   Axel Marchand/Couette21
   Théo Beausaert/Thorsyss
   
