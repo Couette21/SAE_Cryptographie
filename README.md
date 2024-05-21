@@ -9,6 +9,7 @@ nous ferons tout d'abord:
 <li>Decouverte des differentes fonction en pratrique</li>
 <li>Le Programme de vérification de colision</li>
 <li>Attaque...</li>
+<li>paradox des anniversaire</li>
 -
 -
 
