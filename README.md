@@ -10,6 +10,7 @@ nous ferons tout d'abord:
 <li>Le Programme de vérification de colision</li>
 <li>Le Programme de création de colision</li>
 <li>paradox des anniversaire</li>
+<li>hashcat</li>
 Preparer l'attaque:
 <li>trouver une facon de s'introduire, piste:</li>
 <li>mise a jour d'un système ou app, mot de passe(avec le truc de deprez), etc..</li>
