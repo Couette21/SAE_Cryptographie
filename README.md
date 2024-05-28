@@ -11,6 +11,7 @@ nous ferons tout d'abord:
 <li>Le Programme de création de colision</li>
 <li>paradox des anniversaire</li>
 <li>craquage de mot de passe avec hashcat</li>
+<li>essaie avec le DES</li>
 Preparer l'attaque:
 <li>trouver une facon de s'introduire, piste:</li>
 <li>mise a jour d'un système ou app, mot de passe(avec le truc de deprez), etc..</li>
