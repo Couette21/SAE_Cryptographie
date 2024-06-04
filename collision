@@ -1,0 +1,41 @@
+#####creation du code c HelloWorld.c#####
+#include <stdio.h>
+
+/* HelloWorld */
+int main(void) {
+    puts("Bonjour tout le monde !!!");
+    getchar();
+    return 0;
+}
+
+
+#####creation du code c Malware.c#####
+
+#include <stdio.h>
+
+/* Malware */
+int main(void) {
+    puts("Ceci est un malware, ou pas...");
+    getchar();
+    return 0;
+}
+
+              
+
+┌──(theo㉿kali)-[~]
+└─$ gcc -Wall -pedantic HelloWorld.c -o HelloWorld.exe 
+                                                                                                                    
+┌──(theo㉿kali)-[~]
+└─$ gcc -Wall -pedantic Malware.c -o Malware.exe ┌──(theo㉿kali)-[~]
+
+
+
+(theo㉿kali)-[~]
+└─$ md5sum HelloWorld.bin; sha1sum HelloWorld.bin 
+f1ed52b8bb66308d1126fc5fa9ac1ae3  HelloWorld.bin
+767b96ba7455dcafa478edbc2bc2e2a16e50e2c4  HelloWorld.bin
+                                                                                                                    
+┌──(theo㉿kali)-[~]
+└─$ md5sum Malware.bin; sha1sum Malware.bin
+f1ed52b8bb66308d1126fc5fa9ac1ae3  Malware.bin
+6b19c3492d094515ff1d0f6b78367846b04d4ef6  Malware.bin
