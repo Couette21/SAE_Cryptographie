@@ -18,3 +18,8 @@ Preparer l'attaque:
 <li>Attaque...</li>
 <li>rapport réussi 20/20</li>
 
+Programme Pour cracker un hash md5 voici les commandes
+sudo apt install hashcat
+cree un fichier md5 avec:
+e99a18c428cb38d5f260853678922e03
+hashcat -m 0 -a 0 hashes.txt /usr/share/wordlists/rockyou.txt.gz
