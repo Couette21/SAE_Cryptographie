@@ -8,7 +8,7 @@ Le projet a été réalisé par :
 
 ## **Introduction**
 
-Notre objectif est d'explorer la faille de collision de MD5 à des fins éducatives, en nous concentrant sur l'introduction théorique et pratique aux concepts de cryptographie.
+Notre objectif est d'explorer la faille de collision de MD5, en nous concentrant sur l'introduction théorique et pratique aux concepts de cryptographie.
 
 ---
 
@@ -61,7 +61,7 @@ Nous développerons un programme pour générer des collisions MD5, c'est-à-dir
 
 Le paradoxe des anniversaires montre qu'avec un nombre relativement faible de tentatives, il y a une probabilité élevée de trouver deux entrées avec le même hash.
 
-![Image Paradoxe des anniversaires](images/paradoxe_anniversaires.png)
+![Image Paradoxe des anniversaires](Captures/Paradoxe.png)
 
 ---
 
@@ -74,10 +74,14 @@ Hashcat est un outil puissant pour craquer les mots de passe en exploitant la pu
 
 John the Ripper est un outil puissant pour craquer les mots de passe en utilisant des techniques de cryptanalyse et de force brute pour identifier les mots de passe à partir de leurs hachages. Cet outil est flexible et peut être utilisé sur une variété de systèmes pour effectuer des attaques par dictionnaire, par force brute et basées sur des règles.
 
+![Craquage de mot de passe avec John the Ripper](Captures/crack_hash.png)
+
 ---
 ## **Essai avec DES**
 
 Le DES (Data Encryption Standard) est un ancien standard de chiffrement symétrique, bien qu'il soit obsolète pour les applications sécurisées.
+
+![Essai avec DES](Captures/DES.png)
 
 ---
 
