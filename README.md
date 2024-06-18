@@ -44,7 +44,7 @@ Nous explorerons différentes fonctions de hachage et leur utilisation pratique 
 
 Ce programme permet de vérifier si deux fichiers différents produisent le même hash MD5.
 
-![Image Programme de vérification de collision](home/theo/Images/Captures/verif.png)
+![Image Programme de vérification de collision](Images/Captures/verif.png)
 
 ---
 
