@@ -14,17 +14,17 @@ Notre objectif est d'explorer la faille de collision de MD5 à des fins éducati
 
 ## **Table des matières**
 
-1. [**Présentation du hachage**](#présentation-du-hachage)
-2. [**Découverte des différentes fonctions en pratique**](#découverte-des-différentes-fonctions-en-pratique)
-3. [**Programme de vérification de collision**](#programme-de-vérification-de-collision)
-4. [**Programme de création de collision**](#programme-de-création-de-collision)
-5. [**Paradoxe des anniversaires**](#paradoxe-des-anniversaires)
-6. [**Craquage de mot de passe avec Hashcat**](#craquage-de-mot-de-passe-avec-hashcat)
-7. [**Essai avec DES**](#essai-avec-des)
-8. [**Préparer l'attaque**](#préparer-lattaque)
-    - [**Trouver une façon de s'introduire**](#trouver-une-façon-de-sintroduire)
-    - [**Attaque**](#attaque)
-    - [**Rapport réussi 20/20**](#rapport-réussi-2020)
+1. [**Présentation du hachage**](#présentation-du-hachage) 📜
+2. [**Découverte des différentes fonctions en pratique**](#découverte-des-différentes-fonctions-en-pratique) 🔍
+3. [**Programme de vérification de collision**](#programme-de-vérification-de-collision) 🛠️
+4. [**Programme de création de collision**](#programme-de-création-de-collision) 🛠️
+5. [**Paradoxe des anniversaires**](#paradoxe-des-anniversaires) 🎉
+6. [**Craquage de mot de passe avec Hashcat**](#craquage-de-mot-de-passe-avec-hashcat) 💻
+7. [**Essai avec DES**](#essai-avec-des) 🔐
+8. [**Préparer l'attaque**](#préparer-lattaque) 🚀
+    - [**Trouver une façon de s'introduire**](#trouver-une-façon-de-sintroduire) 🔍
+    - [**Attaque**](#attaque) ⚔️
+    - [**Rapport réussi 20/20**](#rapport-réussi-2020) 📊
 
 ---
 
@@ -87,3 +87,4 @@ Nous conclurons notre projet en partageant nos résultats et en tirant des concl
 ---
 
 Ce fichier README.md est conçu pour fournir une introduction claire et un guide pratique sur chaque aspect exploré dans votre projet de cryptographie. Vous pouvez personnaliser les sections et les détails selon vos besoins spécifiques et ajouter des détails supplémentaires au fur et à mesure de l'avancement de votre projet.
+
