@@ -20,8 +20,9 @@ Notre objectif est d'explorer la faille de collision de MD5 à des fins éducati
 4. [**Programme de création de collision**](#programme-de-création-de-collision) 🛠️
 5. [**Paradoxe des anniversaires**](#paradoxe-des-anniversaires) 🎉
 6. [**Craquage de mot de passe avec Hashcat**](#craquage-de-mot-de-passe-avec-hashcat) 💻
-7. [**Essai avec DES**](#essai-avec-des) 🔐
-8. [**Préparer l'attaque**](#préparer-lattaque) 🚀
+7. [**Craquage de mot de passe avec John the Ripper**](#Craquage-de-mot-de-passe-avec-John-the-Ripper) 🔍
+8. [**Essai avec DES**](#essai-avec-des) 🔐
+9. [**Préparer l'attaque**](#préparer-lattaque) 🚀
     - [**Trouver une façon de s'introduire**](#trouver-une-façon-de-sintroduire) 🔍
     - [**Attaque**](#attaque) ⚔️
     - [**Rapport réussi 20/20**](#rapport-réussi-2020) 📊
@@ -69,7 +70,11 @@ Le paradoxe des anniversaires montre qu'avec un nombre relativement faible de te
 Hashcat est un outil puissant pour craquer les mots de passe en exploitant la puissance des GPU pour accélérer le processus.
 
 ---
+## **Craquage de mot de passe avec John the Ripper**
 
+John the Ripper est un outil puissant pour craquer les mots de passe en utilisant des techniques de cryptanalyse et de force brute pour identifier les mots de passe à partir de leurs hachages. Cet outil est flexible et peut être utilisé sur une variété de systèmes pour effectuer des attaques par dictionnaire, par force brute et basées sur des règles.
+
+---
 ## **Essai avec DES**
 
 Le DES (Data Encryption Standard) est un ancien standard de chiffrement symétrique, bien qu'il soit obsolète pour les applications sécurisées.
