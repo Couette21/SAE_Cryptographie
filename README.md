@@ -44,17 +44,23 @@ Nous explorerons différentes fonctions de hachage et leur utilisation pratique 
 
 Ce programme permet de vérifier si deux fichiers différents produisent le même hash MD5.
 
+![Image Programme de vérification de collision](images/verification_collision.png)
+
 ---
 
 ## **Programme de création de collision**
 
 Nous développerons un programme pour générer des collisions MD5, c'est-à-dire trouver deux entrées distinctes produisant le même hash MD5.
 
+![Image Programme de création de collision](images/creation_collision.png)
+
 ---
 
 ## **Paradoxe des anniversaires**
 
 Le paradoxe des anniversaires montre qu'avec un nombre relativement faible de tentatives, il y a une probabilité élevée de trouver deux entrées avec le même hash.
+
+![Image Paradoxe des anniversaires](images/paradoxe_anniversaires.png)
 
 ---
 
