@@ -80,7 +80,7 @@ Le DES (Data Encryption Standard) est un ancien standard de chiffrement symétri
 
 ### **Trouver une façon de s'introduire**
 
-Nous explorerons différentes méthodes d'attaque, y compris l'exploitation de mises à jour de système ou d'applications et les vulnérabilités de gestion de mots de passe.
+Nous explorerons différentes méthodes d'attaque, y compris l'exploitation de mises à jour de système ou d'applications et les vulnérabilités de gestion de mots de passe. L'objectif est d'identifier les points faibles dans les systèmes de sécurité actuels.
 
 ### **Attaque**
 
@@ -90,7 +90,5 @@ Nous mettrons en pratique les concepts appris pour simuler des attaques et éval
 
 Nous conclurons notre projet en partageant nos résultats et en tirant des conclusions sur la sécurité des systèmes utilisant MD5.
 
----
 
-Ce fichier README.md est conçu pour fournir une introduction claire et un guide pratique sur chaque aspect exploré dans votre projet de cryptographie. Vous pouvez personnaliser les sections et les détails selon vos besoins spécifiques et ajouter des détails supplémentaires au fur et à mesure de l'avancement de votre projet.
 
