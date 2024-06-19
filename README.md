@@ -69,6 +69,10 @@ Le paradoxe des anniversaires montre qu'avec un nombre relativement faible de te
 
 Hashcat est un outil puissant pour craquer les mots de passe en exploitant la puissance des GPU pour accélérer le processus.
 
+![Craquage de mot de passe avec Hashcat](Captures/hash.png)
+
+![Craquage de mot de passe avec Hashcat](Captures/hash1.png)
+
 ---
 ## **Craquage de mot de passe avec John the Ripper**
 
