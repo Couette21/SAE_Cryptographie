@@ -49,9 +49,9 @@ Ce programme permet de vérifier si deux fichiers différents produisent le mêm
 
 ---
 
-## **Programme de création de collision**
+## **Programme de recherche de hash specifique**
 
-Nous développerons un programme pour générer des collisions MD5, c'est-à-dire trouver deux entrées distinctes produisant le même hash MD5.
+Nous avons développé un programme pour rechercher un hash spécifique. Le principe est simple : créer un fichier contenant une pop-up, modifier le contenu sans altérer sa fonction de base, et ajouter des zéros afin que notre programme puisse trouver le hash spécifique.
 
 ![Image Programme de création de collision](images/creation_collision.png)
 
