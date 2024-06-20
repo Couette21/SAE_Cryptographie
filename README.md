@@ -30,7 +30,8 @@ Notre objectif est d'explorer la faille de collision de MD5, en nous concentrant
 
 ## **Présentation du hachage**
 
-Le hachage est une fonction cryptographique qui prend une entrée (ou message) et produit une sortie (ou hash) de taille fixe. MD5 est une fonction de hachage largement utilisée malgré ses vulnérabilités.
+Qu'est-ce que le hachage ?
+Le hachage est une fonction cryptographique qui transforme une entrée (ou message) de taille variable en une sortie (ou hash) de taille fixe. Cette sortie est souvent représentée sous forme de chaîne de caractères hexadécimaux. Les fonctions de hachage sont largement utilisées en informatique pour des applications telles que la vérification de l'intégrité des données, le stockage sécurisé des mots de passe, et les signatures numériques.
 
 ---
 
