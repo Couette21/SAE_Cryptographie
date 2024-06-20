@@ -81,13 +81,6 @@ John the Ripper est un outil puissant pour craquer les mots de passe en utilisan
 ![Craquage de mot de passe avec John the Ripper](Captures/crack_hash.png)
 
 ---
-## **Essai avec DES**
-
-Le DES (Data Encryption Standard) est un ancien standard de chiffrement symétrique, bien qu'il soit obsolète pour les applications sécurisées.
-
-![Essai avec DES](Captures/DES.png)
-
----
 
 ## **Préparer l'attaque**
 
