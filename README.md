@@ -39,6 +39,18 @@ Le hachage est une fonction cryptographique qui transforme une entrée (ou messa
 
 Nous explorerons différentes fonctions de hachage et leur utilisation pratique pour comprendre leur fonctionnement et leurs limites.
 
+-MD5 (Message Digest Algorithm 5)
+Taille du hash : 128 bits (16 octets)
+
+-SHA-1 (Secure Hash Algorithm 1)
+Taille du hash : 160 bits (20 octets)
+
+-SHA-256 (Secure Hash Algorithm 256)
+Taille du hash : 256 bits (32 octets)
+
+-SHA-512 (Secure Hash Algorithm 512)
+Taille du hash : 512 bits (64 octets)
+
 ---
 
 ## **Programme de vérification de collision**
