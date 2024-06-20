@@ -21,8 +21,7 @@ Notre objectif est d'explorer la faille de collision de MD5, en nous concentrant
 5. [**Paradoxe des anniversaires**](#paradoxe-des-anniversaires) 🎉
 6. [**Craquage de mot de passe avec Hashcat**](#craquage-de-mot-de-passe-avec-hashcat) 💻
 7. [**Craquage de mot de passe avec John the Ripper**](#Craquage-de-mot-de-passe-avec-John-the-Ripper) 🔍
-8. [**Essai avec DES**](#essai-avec-des) 🔐
-9. [**Préparer l'attaque**](#préparer-lattaque) 🚀
+8. [**Préparer l'attaque**](#préparer-lattaque) 🚀
     - [**Trouver une façon de s'introduire**](#trouver-une-façon-de-sintroduire) 🔍
     - [**Attaque**](#attaque) ⚔️
     - [**Rapport réussi 20/20**](#rapport-réussi-2020) 📊
