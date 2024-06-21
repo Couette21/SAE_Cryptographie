@@ -41,7 +41,7 @@ Le hachage est une fonction cryptographique qui transforme une entrée (ou messa
 
 Le schéma montre comment les collisions de hachage sont utilisées pour tromper les systèmes de sécurité. Un attaquant crée un bloc de collision qui, combiné avec un entête commun, génère la même valeur de hachage pour deux fichiers différents : un fichier inoffensif et un malware. En concaténant ce bloc de collision et l'entête avec soit le fichier gentil, soit le malware, les deux fichiers semblent identiques aux systèmes de sécurité qui utilisent des valeurs de hachage pour vérifier l'intégrité des fichiers. Cela permet au malware de passer pour un fichier sûr et de contourner les protections.
 
-![Image Programme de vérification de collision](Captures/Tableau.png)
+![Image Programme de vérification de collision](Captures/Fonctionement.png)
 
 ---
 
@@ -49,7 +49,7 @@ Le schéma montre comment les collisions de hachage sont utilisées pour tromper
 
 Nous explorerons différentes fonctions de hachage et leur utilisation pratique pour comprendre leur fonctionnement et leurs limites.
 
-![Image Programme de vérification de collision](Captures/Captured’écrandu2024-06-2023-31-04.png)
+![Image Programme de vérification de collision](Captures/Tableau.png)
 
 -MD5 (Message Digest Algorithm 5)
 Taille du hash : 128 bits (16 octets)
