@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* HelloWorld */
+/*HelloWorld*/
 int main(void) {
     puts("Bonjour tout le monde !!!");
     getchar();
