@@ -114,13 +114,13 @@ John the Ripper est un outil puissant pour craquer les mots de passe en utilisan
 
 Le hashclash est une technique d'attaque par collision de hachage, où un attaquant trouve deux entrées différentes qui produisent la même valeur de hachage. Cela permet de manipuler des fichiers ou des messages de sorte qu'ils aient des signatures de hachage identiques, trompant ainsi les systèmes de vérification d'intégrité. Hashclash est souvent utilisé pour contourner les mesures de sécurité en faisant passer du contenu malveillant pour du contenu inoffensif.
 
-Source:
+# Source:
 
-<li>https://www.win.tue.nl/hashclash/
-https://www.win.tue.nl/hashclash/ChosenPrefixCollisions/
-https://www.win.tue.nl/hashclash/SoftIntCodeSign/
-https://thomaspeyrin.github.io/web/assets/docs/papers/Peyrin-PhDThesis.pdf
-https://eprint.iacr.org/2004/199.pdf</li>
+<li>https://www.win.tue.nl/hashclash/</li>
+<li>https://www.win.tue.nl/hashclash/ChosenPrefixCollisions/</li>
+<li>https://www.win.tue.nl/hashclash/SoftIntCodeSign/</li>
+<li>https://thomaspeyrin.github.io/web/assets/docs/papers/Peyrin-PhDThesis.pdf</li>
+<li>https://eprint.iacr.org/2004/199.pdf</li>
 
 
 ## **Préparer l'attaque**
