@@ -53,7 +53,7 @@ Nous explorerons différentes fonctions de hachage et leur utilisation pratique 
 
 
 ---
-## **Programme-de-création-de-collision**
+## **Programme de création de collision**
 
 
 
@@ -70,7 +70,7 @@ Ce programme permet de vérifier si deux fichiers différents produisent le mêm
 
 Nous avons développé un programme pour rechercher un hash spécifique. Le principe est simple : créer un fichier contenant une pop-up, modifier le contenu sans altérer sa fonction de base, et ajouter des zéros afin que notre programme puisse trouver le hash spécifique.
 
-![Image Programme de création de collision](images/creation_collision.png)
+![Image Programme de création de collision](images/hash_specifique.png)
 
 ---
 
