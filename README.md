@@ -100,6 +100,9 @@ John the Ripper est un outil puissant pour craquer les mots de passe en utilisan
 ![Craquage de mot de passe avec John the Ripper](Captures/crack_hash.png)
 
 ---
+## **Hashclash**
+
+
 
 ## **Préparer l'attaque**
 
