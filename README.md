@@ -55,7 +55,7 @@ Taille du hash : 256 bits (32 octets)
 Taille du hash : 512 bits (64 octets)
 
 ---
-## **Programme-de-création-de-collision**
+## **Programme-de-création-de-collision**c
 
 
 
