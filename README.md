@@ -126,7 +126,7 @@ Le hashclash est une technique d'attaque par collision de hachage, où un attaqu
 
 Ici, l'on remarque une une collision entre deux fichier qui n'ont pas le même contenu.
 
-![Collision hashclash](Captures/crack_hash.png)
+![Collision hashclash](Captures/Collision.png)
 
 
 ## **Préparer l'attaque**
