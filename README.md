@@ -15,14 +15,15 @@ Notre objectif est d'explorer la faille de collision de MD5, en nous concentrant
 ## **Table des matières**
 
 1. [**Présentation du hachage**](#présentation-du-hachage) 📜
-2. [**Découverte des différentes fonctions en pratique**](#découverte-des-différentes-fonctions-en-pratique) 🔍
-3. [**Programme de vérification de collision**](#programme-de-vérification-de-collision) 🛠️
-4. [**Programme de création de collision**](#programme-de-création-de-collision) 🛠️
-5. [**Paradoxe des anniversaires**](#paradoxe-des-anniversaires) 🎉
-6. [**Craquage de mot de passe avec Hashcat**](#craquage-de-mot-de-passe-avec-hashcat) 💻
-7. [**Craquage de mot de passe avec John the Ripper**](#Craquage-de-mot-de-passe-avec-John-the-Ripper) 🔍
-8. [**Hashclash**](#Hashclash) 🎉
-9. [**Préparer l'attaque**](#préparer-lattaque) 🚀
+2. [**Fonctionnement des collisions**](#Fonctionnement-des-collisions)
+3. [**Découverte des différentes fonctions en pratique**](#découverte-des-différentes-fonctions-en-pratique) 🔍
+4. [**Programme de vérification de collision**](#programme-de-vérification-de-collision) 🛠️
+5. [**Programme de création de collision**](#programme-de-création-de-collision) 🛠️
+6. [**Paradoxe des anniversaires**](#paradoxe-des-anniversaires) 🎉
+7. [**Craquage de mot de passe avec Hashcat**](#craquage-de-mot-de-passe-avec-hashcat) 💻
+8. [**Craquage de mot de passe avec John the Ripper**](#Craquage-de-mot-de-passe-avec-John-the-Ripper) 🔍
+9. [**Hashclash**](#Hashclash) 🎉
+10. [**Préparer l'attaque**](#préparer-lattaque) 🚀
     - [**Trouver une façon de s'introduire**](#trouver-une-façon-de-sintroduire) 🔍
     - [**Attaque**](#attaque) ⚔️
     - [**Rapport réussi 20/20**](#rapport-réussi-2020) 📊
@@ -33,6 +34,14 @@ Notre objectif est d'explorer la faille de collision de MD5, en nous concentrant
 
 Qu'est-ce que le hachage ?
 Le hachage est une fonction cryptographique qui transforme une entrée (ou message) de taille variable en une sortie (ou hash) de taille fixe. Cette sortie est souvent représentée sous forme de chaîne de caractères hexadécimaux. Les fonctions de hachage sont largement utilisées en informatique pour des applications telles que la vérification de l'intégrité des données, le stockage sécurisé des mots de passe, et les signatures numériques.
+
+---
+
+## **Fonctionnement des collisions**
+
+Le schéma montre comment les collisions de hachage sont utilisées pour tromper les systèmes de sécurité. Un attaquant crée un bloc de collision qui, combiné avec un entête commun, génère la même valeur de hachage pour deux fichiers différents : un fichier inoffensif et un malware. En concaténant ce bloc de collision et l'entête avec soit le fichier gentil, soit le malware, les deux fichiers semblent identiques aux systèmes de sécurité qui utilisent des valeurs de hachage pour vérifier l'intégrité des fichiers. Cela permet au malware de passer pour un fichier sûr et de contourner les protections.
+
+![Image Programme de vérification de collision](Captures/Captured’écrandu2024-06-2023-31-04.png)
 
 ---
 
@@ -55,7 +64,7 @@ Taille du hash : 256 bits (32 octets)
 Taille du hash : 512 bits (64 octets)
 
 ---
-## **Programme-de-création-de-collision**c
+## **Programme-de-création-de-collision**
 
 
 
